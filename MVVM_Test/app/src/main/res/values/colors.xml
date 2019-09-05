@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="red">#e71837</color>
+    <color name="green">#49b675</color>
+    <color name="blue">#0e4bef</color>
+    <color name="black">#010101</color>
+
+    <color name="light_grey">#ff999999</color>
+    <color name="grey">#ff666666</color>
+    <color name="deep_grey">#ff333333</color>
+    
+    <color name="light_pourple">#f8d9f8</color>
+    <color name="pourple">#ffb3e6</color>
+
+    <color name="orange">#ffa500</color>
+    <color name="yellow">#ffff00</color>
+    <color name="white">#ffffffff</color>
+
+
+    <color name="primary_gradient_start">#7F6E96FC</color>
+    <color name="primary_gradient_center">#7F988FF1</color>
+    <color name="primary_gradient_end">#7FAF8CEA</color>
+
+    <color name="bg_list">#F3F4FC</color>
+
+    <color name="bg_stroke">#8C95EA</color>
+
+    <color name="red_range">#D90000</color>
+
+    <color name="orange_price">#FF5D1B</color>
+
+    <color name="price_uni_title">#071272</color>
+
+    <color name="pink">#ffd8d5</color>
+
+</resources>

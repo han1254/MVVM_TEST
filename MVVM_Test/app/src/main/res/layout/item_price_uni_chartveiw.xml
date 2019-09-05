@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_chartview"
+    android:layout_marginBottom="16dp">
+
+
+        <TextView
+            android:id="@+id/up_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="涨幅排行榜"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/red"/>
+        <View
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#8C95EA">
+
+        </View>
+
+
+        <!--Tab-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+
+            <!--&lt;!&ndash;first&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Top1"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:textColor="@color/red"/>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+                    <!--<View-->
+                        <!--android:layout_width="6dp"-->
+                        <!--android:layout_height="6dp"-->
+                        <!--android:background="@color/red"-->
+                        <!--android:layout_gravity="center_vertical">-->
+
+                    <!--</View>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_marginLeft="8dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="翡翠"-->
+                        <!--android:textColor="@color/red"-->
+                        <!--android:textSize="12sp"/>-->
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:text="+37.94%"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:textColor="@color/red"/>-->
+
+            <!--</LinearLayout>-->
+            <!--&lt;!&ndash;first&ndash;&gt;-->
+
+            <!--<View-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_width="0.3dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="#8C95EA">-->
+
+            <!--</View>-->
+
+            <!--&lt;!&ndash;second&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Top2"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:textColor="@color/orange"/>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+                    <!--<View-->
+                        <!--android:layout_width="6dp"-->
+                        <!--android:layout_height="6dp"-->
+                        <!--android:background="@color/orange"-->
+                        <!--android:layout_gravity="center_vertical">-->
+
+                    <!--</View>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="玛瑙"-->
+                        <!--android:layout_marginLeft="8dp"-->
+                        <!--android:textColor="@color/orange"-->
+                        <!--android:textSize="12sp"/>-->
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:text="+29.83%"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:textColor="@color/red"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--&lt;!&ndash;second&ndash;&gt;-->
+            <!--<View-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_width="0.3dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="#8C95EA">-->
+
+            <!--</View>-->
+            <!--&lt;!&ndash;third&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Top3"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:textColor="@color/yellow"/>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+                    <!--<View-->
+                        <!--android:layout_width="6dp"-->
+                        <!--android:layout_height="6dp"-->
+                        <!--android:background="@color/yellow"-->
+                        <!--android:layout_gravity="center_vertical">-->
+
+                    <!--</View>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="和田玉"-->
+                        <!--android:textColor="@color/yellow"-->
+                        <!--android:layout_marginLeft="8dp"-->
+                        <!--android:textSize="12sp"/>-->
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:text="+25.56%"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:textColor="@color/red"/>-->
+
+            <!--</LinearLayout>-->
+            <!--&lt;!&ndash;third&ndash;&gt;-->
+
+
+        <!--</LinearLayout>-->
+        <!--&lt;!&ndash;Tab&ndash;&gt;-->
+
+        <!--<com.github.mikephil.charting.charts.LineChart-->
+            <!--android:id="@+id/price_linear_chart"-->
+            <!--style="@style/CommonChartStyle">-->
+
+        <!--</com.github.mikephil.charting.charts.LineChart>-->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/price_linear_chart_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <!--<com.example.mvvm_test.bussiness.test.mvvm.view.MyLinearChartView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <!--</com.example.mvvm_test.bussiness.test.mvvm.view.MyLinearChartView>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.mvvm_test.bussiness.test.mvvm.view.MyLinearChartView
+                android:layout_toLeftOf="@+id/item_price_uni_chart_tab_fir"
+                android:id="@+id/item_price_uni_mylinechart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_centerVertical="true">
+            </com.example.mvvm_test.bussiness.test.mvvm.view.MyLinearChartView>
+
+            <!--first-->
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:id="@+id/item_price_uni_chart_tab_fir"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top1"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:textColor="@color/red"/>
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <View
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:background="@color/red"
+                        android:layout_gravity="center_vertical">
+
+                    </View>
+
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="翡翠"
+                        android:textColor="@color/red"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="+37.94%"
+                    android:textSize="12sp"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+            <!--first-->
+
+
+
+        </RelativeLayout>
+
+
+        <com.example.mvvm_test.bussiness.test.mvvm.view.MyLinearChartView
+            android:layout_toLeftOf="@+id/item_price_uni_chart_tab_fir"
+            android:id="@+id/item_price_uni_mylinechart2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_centerVertical="true">
+        </com.example.mvvm_test.bussiness.test.mvvm.view.MyLinearChartView>
+
+
+        <com.example.mvvm_test.bussiness.test.mvvm.view.MyLinearChartView
+            android:layout_toLeftOf="@+id/item_price_uni_chart_tab_fir"
+            android:id="@+id/item_price_uni_mylinechart3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_centerVertical="true">
+        </com.example.mvvm_test.bussiness.test.mvvm.view.MyLinearChartView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+    
+    <android.support.v7.widget.CardView
+        android:id="@+id/item_uni_list_cardview"
+        app:cardCornerRadius="3.3dp"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerVertical="true"
+        android:background="#A0A0A0"
+        android:layout_marginLeft="8dp">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <ImageView
+               android:layout_centerInParent="true"
+               android:layout_width="57dp"
+               android:layout_height="57dp"
+               android:src="@drawable/ic_manao"/>
+
+       </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    
+    <TextView
+        android:id="@+id/item_price_uni_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="玛瑙"
+        android:layout_toRightOf="@id/item_uni_list_cardview"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"/>
+
+    <RelativeLayout
+        android:id="@+id/item_price_uni_relative_make_deal"
+        android:layout_width="57.3dp"
+        android:layout_height="16.7dp"
+        android:layout_toRightOf="@id/item_price_uni_tv_name"
+        android:layout_alignTop="@id/item_price_uni_tv_name"
+        android:layout_alignBottom="@id/item_price_uni_tv_name"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/bg_stroke">
+
+        <TextView
+            android:id="@+id/item_price_uni_tv_make_deal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="成交量"
+            android:textColor="@color/bg_stroke"
+            android:textSize="10sp"
+            android:layout_marginLeft="4dp"
+            />
+        <TextView
+            android:id="@+id/item_price_uni_tv_make_deal_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_price_uni_tv_make_deal"
+            android:text="No.1"
+            android:textColor="@color/red_range"
+            android:textSize="8sp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_price_uni_relative_search"
+        android:layout_width="57.3dp"
+        android:layout_height="16.7dp"
+        android:layout_toRightOf="@id/item_price_uni_relative_make_deal"
+        android:layout_alignTop="@id/item_price_uni_tv_name"
+        android:layout_alignBottom="@id/item_price_uni_tv_name"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/bg_stroke">
+
+        <TextView
+            android:id="@+id/item_price_uni_tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="搜索量"
+            android:textColor="@color/bg_stroke"
+            android:textSize="10sp"
+            android:layout_marginLeft="4dp"
+            />
+        <TextView
+            android:id="@+id/item_price_uni_tv_search_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_price_uni_tv_search"
+            android:text="No.1"
+            android:textColor="@color/red_range"
+            android:textSize="8sp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_price_uni_relative_collection"
+        android:layout_width="57.3dp"
+        android:layout_height="16.7dp"
+        android:layout_toRightOf="@id/item_price_uni_relative_search"
+        android:layout_alignTop="@id/item_price_uni_tv_name"
+        android:layout_alignBottom="@id/item_price_uni_tv_name"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/bg_stroke">
+
+        <TextView
+            android:id="@+id/item_price_uni_tv_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="成交量"
+            android:textColor="@color/bg_stroke"
+            android:textSize="10sp"
+            android:layout_marginLeft="4dp"
+            />
+        <TextView
+            android:id="@+id/item_price_uni_tv_collection_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_price_uni_tv_collection"
+            android:text="No.1"
+            android:textColor="@color/red_range"
+            android:textSize="8sp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/item_price_uni_tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¥10086"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/item_uni_list_cardview"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/orange_price"/>
+
+
+    <LinearLayout
+        android:layout_toRightOf="@id/item_uni_list_cardview"
+        android:layout_below="@id/item_price_uni_tv_price"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6.3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="涨幅："/>
+
+
+        <TextView
+            android:id="@+id/item_price_uni_list_tv_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+7.2%"
+            android:textColor="@color/red"/>
+
+
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="涨速："/>
+
+        <TextView
+            android:id="@+id/item_price_uni_list_tv_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-4.6%"
+            android:textColor="@color/green"/>
+
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/item_price_uni_list_selector_collect"
+        android:layout_width="17.3dp"
+        android:layout_height="17.3dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/selector_price_uni_star"
+        android:clickable="true"/>
+
+
+
+
+</RelativeLayout>

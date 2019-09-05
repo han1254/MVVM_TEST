@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bussiness.test.mvvm.view.ChartViewTest">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:layout_centerHorizontal="true"
+
+                android:background="@drawable/bg_price">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_price_white"
+                    android:layout_marginLeft="100dp"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="@drawable/bg_price">
+
+            </View>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+   <android.support.v4.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="80dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:background="@drawable/bg_price_white">
+
+       <LinearLayout
+
+
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+          <LinearLayout
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="涨幅排行榜"
+                  android:layout_gravity="center_horizontal"
+                  android:textSize="20sp"
+                  android:layout_marginTop="10dp"
+                  android:textColor="@color/red"/>
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="2px"
+                  android:background="@color/green">
+
+              </View>
+
+
+              <!--Tab-->
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+
+                 <!--first-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Top1"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"
+                        android:textColor="@color/red"/>
+
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <View
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:background="@color/red"
+                            android:layout_gravity="center_vertical">
+
+                        </View>
+
+                        <TextView
+                            android:layout_marginLeft="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="翡翠"
+                            android:textColor="@color/red"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="+37.94%"
+                        android:textSize="18sp"
+                        android:textColor="@color/red"/>
+
+                </LinearLayout>
+                  <!--first-->
+
+                  <View
+                      android:layout_marginTop="8dp"
+                      android:layout_width="2px"
+                      android:layout_height="match_parent"
+                      android:background="@color/pourple">
+
+                  </View>
+
+                  <!--second-->
+                  <LinearLayout
+                      android:layout_weight="1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Top2"
+                          android:layout_gravity="center_horizontal"
+                          android:textSize="20sp"
+                          android:textColor="@color/orange"/>
+
+                      <LinearLayout
+                          android:layout_gravity="center_horizontal"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                          <View
+                              android:layout_width="12dp"
+                              android:layout_height="12dp"
+                              android:background="@color/orange"
+                              android:layout_gravity="center_vertical">
+
+                          </View>
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="玛瑙"
+                              android:layout_marginLeft="8dp"
+                              android:textColor="@color/orange"
+                              android:textSize="18sp"/>
+                      </LinearLayout>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_horizontal"
+                          android:text="+29.83%"
+                          android:textSize="18sp"
+                          android:textColor="@color/red"/>
+
+                  </LinearLayout>
+
+                  <!--second-->
+                  <View
+                      android:layout_marginTop="8dp"
+                      android:layout_width="2px"
+                      android:layout_height="match_parent"
+                      android:background="@color/pourple">
+
+                  </View>
+                  <!--third-->
+                  <LinearLayout
+                      android:layout_weight="1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Top3"
+                          android:layout_gravity="center_horizontal"
+                          android:textSize="20sp"
+                          android:textColor="@color/yellow"/>
+
+                      <LinearLayout
+                          android:layout_gravity="center_horizontal"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                          <View
+                              android:layout_width="12dp"
+                              android:layout_height="12dp"
+                              android:background="@color/yellow"
+                              android:layout_gravity="center_vertical">
+
+                          </View>
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="和田玉"
+                              android:textColor="@color/yellow"
+                              android:layout_marginLeft="8dp"
+                              android:textSize="18sp"/>
+                      </LinearLayout>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_horizontal"
+                          android:text="+25.56%"
+                          android:textSize="18sp"
+                          android:textColor="@color/red"/>
+
+                  </LinearLayout>
+                  <!--third-->
+
+
+                </LinearLayout>
+              <!--Tab-->
+              
+              <com.github.mikephil.charting.charts.LineChart
+                  android:id="@+id/price_linear_chart"
+                  style="@style/CommonChartStyle">
+
+              </com.github.mikephil.charting.charts.LineChart>
+
+
+
+          </LinearLayout>
+
+       </LinearLayout>
+
+   </android.support.v4.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

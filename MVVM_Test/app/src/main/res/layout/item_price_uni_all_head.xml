@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/item_price_uni_allhead"
+    android:layout_marginTop="4.7dp"
+    android:layout_marginBottom="6.7dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text="全部珠宝"
+            android:textSize="14sp"
+            android:textColor="@color/price_uni_title"/>
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="66.7dp"
+            android:layout_height="0.7dp"
+            android:background="@drawable/bg_gradient">
+
+        </View>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_price_uni_all_head_relative_goto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/item_price_uni_tv_lookall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/item_price_uni_all_img_goto"
+            android:layout_marginRight="5.3dp"
+            android:text="查看全部"
+            android:textColor="@color/bg_stroke"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/item_price_uni_all_img_goto"
+            android:layout_width="6.3dp"
+            android:layout_height="10.7dp"
+            android:src="@mipmap/ic_go_to_next"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

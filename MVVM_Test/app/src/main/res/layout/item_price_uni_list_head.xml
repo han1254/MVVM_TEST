@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:id="@+id/item_price_uni_listhead">
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text="近期热门"
+            android:textSize="14sp"
+            android:textColor="@color/price_uni_title"/>
+        <View
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="66.7dp"
+            android:layout_height="0.7dp"
+            android:background="@drawable/bg_gradient">
+
+        </View>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
